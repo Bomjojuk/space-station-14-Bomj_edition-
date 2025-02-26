@@ -319,6 +319,7 @@
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
       - !type:NestedSelector
+        prob: 0.35 #SS220 LostSouls chance for table
         tableId: UnknownShuttlesFriendlyTable
 # SS220-NoUnknownShuttles begin
 #       - !type:NestedSelector
